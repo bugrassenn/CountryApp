@@ -1,5 +1,4 @@
 # CountryApp
-# TodoList
 1 - Font Awesome Icons Kullanımı   
 2 - Tailwind CSS   
 3 - Responsive Desing  
