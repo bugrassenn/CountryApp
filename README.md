@@ -4,7 +4,7 @@
 3 - Responsive Desing  
 4 - Fetch Api Kullanımı 
 
-Siteye giriş yapan kullanıcı,  hangi ülke hakkında bilgi almak istiyorsa o ülkenin adını girerek ülkenin bayrağı, başkenti, para birimi ve sembolü, nüfusu ve hangi dilleri kullandığını öğrenebilmektedir. 
+Siteye giriş yapan kullanıcı,  hangi ülke hakkında bilgi almak istiyorsa o ülkenin adını girerek ülkenin bayrağı, başkenti, para birimi ve sembolü, nüfusu ve hangi dilleri kullandığını öğrenebilmektedir. Dil sayısı satırı dolduruyorsa no-wrap kullanılarak ... şeklinde gösterilmiştir. Projede Tailwind CSS kullanarak Responsive Design sağlanmıştır.
 <br> 
 LINK : https://bugrassen-countryapp.netlify.app/
 
