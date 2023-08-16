@@ -33,24 +33,26 @@ const displayCountry = (result) => {
     ${result[0].name.common}</h3>
     <div class="mx-auto items-start space-y-2">
         <div class= "flex border-b">
-        <h3 class="title uppercase text-center font-semibold">Capital<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
-        <p>${result[0].capital}</p>
+            <h3 class="title uppercase text-center font-semibold">Capital<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
+            <p>${result[0].capital}</p>
         </div>
         <div class= "flex border-b">
-        <h3 class="title uppercase text-center font-semibold">Currencies<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
-        <p class = "pr-2" >${Object.keys(result[0].currencies)[0]}</p>
-        <p>${result[0].currencies[Object.keys(result[0].currencies)].symbol}</p>
+            <h3 class="title uppercase text-center font-semibold">Currencies<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
+            <p class = "pr-2" >${Object.keys(result[0].currencies)[0]}</p>
+            <p>${result[0].currencies[Object.keys(result[0].currencies)].symbol}
+            </p>
         </div>
         <div class= "flex border-b">
-        <h3 class="title uppercase text-center font-semibold">Population<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
-        <p>${result[0].population}</p>
+            <h3 class="title uppercase text-center font-semibold">Population<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
+            <p>${result[0].population}</p>
         </div>
         <div class= "flex border-b">
-        <h3 class="title uppercase text-center font-semibold">Languages<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
-        <p class = "uppercase">${Object.values(result[0].languages)
-          .toString()
-          .split(",")
-          .join(",")}</p>
+            <h3 class="title uppercase text-center font-semibold">Languages<i class="fa-solid fa-arrow-right text-s px-3"></i></h3>
+            <p class = "uppercase">${Object.values(result[0].languages)
+              .toString()
+              .split(",")
+              .join(",")}</p>
         </div>
-  </div>`;
+  </div>
+  `;
 };
