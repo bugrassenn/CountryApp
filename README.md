@@ -5,8 +5,8 @@
 3 - Responsive Desing  
 4 - Fetch Api Kullanımı 
 
-Siteye giriş yapan kullanıcı,  hangi ülke hakkında bilgi almak istiyorsa o ülkenin adını girerek ülkenin bayrağı, başkenti, para birimi ve sembolü, nüfusu ve hangi dilleri kullandığını öğrenebilmektedir.  
-
+Siteye giriş yapan kullanıcı,  hangi ülke hakkında bilgi almak istiyorsa o ülkenin adını girerek ülkenin bayrağı, başkenti, para birimi ve sembolü, nüfusu ve hangi dilleri kullandığını öğrenebilmektedir. 
+<br> 
 LINK : https://bugrassen-todolist.netlify.app/
 
 <div align="center">
