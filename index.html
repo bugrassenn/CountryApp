@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country APP</title>
+    <!--Tailwind-Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Completed Class-->
+
+    <body class="flex justify-center items-center h-screen bg-gradient-to-r from-blue-300 to-red-300">
+        <!--Center Screen-->
+        <div
+          class="bg-white opacity-90 p-8 w-[350px] md:w-[600px] lg:w-[950px] justify-center items-center rounded shadow-black shadow-lg"
+        >
+          <!-- Title-->
+          <h1
+            class="uppercase font-bold text-center text-xl md:text-2xl lg:text-4xl bg-gradient-to-r from-blue-400 to-red-600  text-transparent bg-clip-text"
+          >
+            Country APP
+          </h1>
+          <!--Search Country -->
+          <div class="container mx-auto flex relative justify-center">
+            <input
+              type="text"
+              placeholder="Ulke Giriniz"
+              class="input w-[350px] bg-transparent border-b border-black border-opacity-90 focus:outline-none transition duration-500 custom-placeholder placeholder:text-black placeholder:opacity-50"
+            />
+            <button
+              class="search bg-gradient-to-r from-blue-400 to-red-400 hover:text-black text-white font-bold py-2 px-4 rounded ml-2"
+            >
+              <i class="fa-solid fa-search"></i>
+            </button>            
+
+        </div>
+        <div class="countryInfo flex items-center justify-center flex-col mt-5 space-y-4 container mx-auto"></div>
+
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
