@@ -6,7 +6,7 @@
 
 Siteye giriş yapan kullanıcı,  hangi ülke hakkında bilgi almak istiyorsa o ülkenin adını girerek ülkenin bayrağı, başkenti, para birimi ve sembolü, nüfusu ve hangi dilleri kullandığını öğrenebilmektedir. 
 <br> 
-LINK : https://bugrassen-todolist.netlify.app/
+LINK : https://bugrassen-countryapp.netlify.app/
 
 <div align="center">
     <h1>Site View</h1>
